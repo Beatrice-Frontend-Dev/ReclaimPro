@@ -14,10 +14,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function toggleNav() {
   const navMenu = document.getElementById("nav-menu");
-  // Toggle the 'active' class to show/hide the navigation links
+
   navMenu.classList.toggle("active");
 }
 
+document.querySelectorAll(".dropdown-menu a").forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    dropdown.style.display = "none";
+
+    document.querySelectorAll(".dropdown-menu a").forEach((link) => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // ... (rest of your existing code)
+
+        // Hide the dropdown after link click
+        const dropdown = this.closest(".drop");
+        dropdown.style.display = "none";
+      });
+    });
+
+    const serviceee = document.querySelector(".serviceee");
+    const dropdown = document.querySelector(".drop");
+
+    serviceee.addEventListener("mouseover", () => {
+      dropdown.style.display = "flex";
+    });
+
+    serviceee.addEventListener("mouseout", () => {
+      dropdown.style.display = "none";
+    });
+    toggleNav();
+  });
+});
+
+//STATICS COUNTING
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".count");
 
@@ -104,5 +137,23 @@ document.querySelectorAll(".dropdown-menu a").forEach((link) => {
         behavior: "smooth",
       });
     }
+  });
+});
+
+const serviceee = document.querySelector(".serviceee");
+const dropdown = document.querySelector(".drop");
+
+serviceee.addEventListener("mouseover", () => {
+  dropdown.style.display = "flex";
+});
+
+document.querySelectorAll(".dropdown-menu a").forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    // ... (rest of your existing code)
+
+    // Hide the dropdown after link click
+    dropdown.style.display = "none";
   });
 });
