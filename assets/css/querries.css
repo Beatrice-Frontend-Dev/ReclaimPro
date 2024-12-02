@@ -434,7 +434,7 @@
   .section,
   .footer,
   .header {
-    padding: 3rem 3.5rem;
+    padding: 3rem 2rem;
   }
 
   .header.scrolled {
