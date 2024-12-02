@@ -60,7 +60,7 @@
 
   .header,
   .section {
-    padding: 3rem 6rem;
+    padding: 3rem 3.5rem;
   }
 
   .header.scrolled {
@@ -221,7 +221,7 @@
 
 @media (max-width: 600px) {
   .section {
-    padding: 3rem 2rem;
+    padding: 3rem 1.4rem;
   }
 
   .hero-section {
@@ -236,7 +236,7 @@
   }
 
   .header {
-    padding: 3rem 2rem;
+    padding: 3rem 1.4rem;
   }
 
   .header.scrolled {
