@@ -94,6 +94,7 @@ a {
   color: #00ce81;
 }
 
+.header.scrolled .nav-menu li .active-page,
 .nav-menu li .active-page {
   color: #00ce81;
 }
@@ -110,7 +111,9 @@ a {
   background-color: #090d11;
 }
 
-.nav-menu .btn a:hover {
+.nav-menu .btn a:hover,
+.hero-btn a:hover,
+.hero-btn a {
   color: white;
 }
 

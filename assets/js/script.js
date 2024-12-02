@@ -18,37 +18,7 @@ function toggleNav() {
   navMenu.classList.toggle("active");
 }
 
-document.querySelectorAll(".dropdown-menu a").forEach((link) => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    dropdown.style.display = "none";
-
-    document.querySelectorAll(".dropdown-menu a").forEach((link) => {
-      link.addEventListener("click", function (e) {
-        e.preventDefault();
-
-        // ... (rest of your existing code)
-
-        // Hide the dropdown after link click
-        const dropdown = this.closest(".drop");
-        dropdown.style.display = "none";
-      });
-    });
-
-    const serviceee = document.querySelector(".serviceee");
-    const dropdown = document.querySelector(".drop");
-
-    serviceee.addEventListener("mouseover", () => {
-      dropdown.style.display = "flex";
-    });
-
-    serviceee.addEventListener("mouseout", () => {
-      dropdown.style.display = "none";
-    });
-    toggleNav();
-  });
-});
+//removing nav bar
 
 //STATICS COUNTING
 document.addEventListener("DOMContentLoaded", () => {
@@ -117,43 +87,3 @@ setInterval(() => {
   currentSlide = (currentSlide + 1) % testimonials.length;
   showSlide(currentSlide);
 }, 3000); // Change the interval as needed
-
-//DROPDOWN
-document.querySelectorAll(".dropdown-menu a").forEach((link) => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    const targetId = this.getAttribute("href").substring(1);
-
-    const targetElement = document.getElementById(targetId);
-
-    if (targetElement) {
-      const offset = targetElement.getBoundingClientRect().top + window.scrollY;
-
-      const headerHeight =
-        document.querySelector(".fixed-header")?.offsetHeight || 0;
-
-      window.scrollTo({
-        top: offset - headerHeight,
-        behavior: "smooth",
-      });
-    }
-  });
-});
-
-const serviceee = document.querySelector(".serviceee");
-const dropdown = document.querySelector(".drop");
-
-serviceee.addEventListener("mouseover", () => {
-  dropdown.style.display = "flex";
-});
-
-document.querySelectorAll(".dropdown-menu a").forEach((link) => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    // ... (rest of your existing code)
-
-    // Hide the dropdown after link click
-    dropdown.style.display = "none";
-  });
-});
