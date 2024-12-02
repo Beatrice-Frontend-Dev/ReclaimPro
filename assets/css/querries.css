@@ -64,7 +64,7 @@
   }
 
   .header.scrolled {
-    padding: 1.3rem 6rem;
+    padding: 1.3rem 3.5rem;
   }
 
   .header.scrolled .nav-menu li a {
@@ -149,7 +149,7 @@
 
   .footer {
     margin-top: 3.5rem;
-    padding: 3rem 6rem;
+    padding: 3rem 3.5rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
@@ -166,7 +166,7 @@
   /*ABOUT PAGE QUERY*/
   .about-us {
     flex-direction: column;
-    padding: 4rem 6rem;
+    padding: 4rem 3.5rem;
   }
 
   .operation-boxes {
@@ -175,7 +175,7 @@
   }
 
   .operation {
-    padding: 7rem 6rem;
+    padding: 7rem 3.5rem;
   }
 
   .box {
@@ -221,9 +221,8 @@
 
 @media (max-width: 600px) {
   .section {
-    padding: 3rem 1.4rem;
+    padding: 3rem 2rem;
   }
-
   .hero-section {
     position: relative;
     background: linear-gradient(
@@ -236,11 +235,11 @@
   }
 
   .header {
-    padding: 3rem 1.4rem;
+    padding: 3rem 2rem;
   }
 
   .header.scrolled {
-    padding: 1.3rem 3.5rem;
+    padding: 1.3rem 2rem;
   }
 
   .nav-menu {
@@ -368,7 +367,7 @@
 
   .footer {
     margin-top: 3.5rem;
-    padding: 3rem 5rem;
+    padding: 3rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
@@ -393,11 +392,11 @@
   /*ABOUT PAGE QUERY*/
   .about-us {
     flex-direction: column;
-    padding: 4rem 3.5rem;
+    padding: 4rem 2rem;
   }
 
   .operation {
-    padding: 7rem 3.5rem;
+    padding: 7rem 2rem;
   }
 
   .operation h3 {
@@ -439,7 +438,7 @@
   }
 
   .header.scrolled {
-    padding: 1.3rem 3.5rem;
+    padding: 1.3rem 2rem;
   }
 
   .content h2 {
@@ -454,11 +453,11 @@
   /*ABOUT PAGE QUERY*/
   .about-us {
     flex-direction: column;
-    padding: 4rem 3.5rem;
+    padding: 4rem 2rem;
   }
 
   .operation {
-    padding: 7rem 3.5rem;
+    padding: 7rem 2rem;
   }
 
   .operation h3 {
