@@ -132,6 +132,10 @@
     color: #000;
   }
 
+  .header.scrolled .burger:hover {
+    color: #00ce81;
+  }
+
   .content h2 {
     font-size: 3rem;
     line-height: 45px;
