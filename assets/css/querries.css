@@ -450,6 +450,11 @@
     font-size: 3rem;
   }
 
+  .footer-logo {
+    width: 15rem;
+    height: 7rem;
+  }
+
   /*ABOUT PAGE QUERY*/
   .about-us {
     flex-direction: column;

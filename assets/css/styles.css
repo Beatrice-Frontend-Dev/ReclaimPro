@@ -76,6 +76,7 @@ a {
 .logo {
   height: 7rem;
   width: 15rem;
+  margin-left: -1rem;
 }
 
 .nav-menu {
@@ -537,6 +538,7 @@ a {
 .footer-logo {
   width: 10rem;
   height: 5rem;
+  margin-left: -2rem;
 }
 
 .footer-about {
