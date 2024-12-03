@@ -60,13 +60,13 @@ a {
 .header.scrolled {
   position: fixed;
   top: 0;
-  background: white;
-  padding: 1.3rem 10rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: rgb(6, 44, 85);
+  padding: 1.1rem 10rem;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 .header.scrolled .nav-menu li a {
-  color: black;
+  color: #fff;
 }
 
 .header.scrolled .nav-menu li a:hover {
@@ -74,7 +74,8 @@ a {
 }
 
 .logo {
-  height: 3rem;
+  height: 7rem;
+  width: 15rem;
 }
 
 .nav-menu {
@@ -534,8 +535,8 @@ a {
 }
 
 .footer-logo {
-  width: 2rem;
-  height: 2rem;
+  width: 10rem;
+  height: 5rem;
 }
 
 .footer-about {
