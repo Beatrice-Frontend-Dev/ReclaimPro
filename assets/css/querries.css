@@ -234,6 +234,12 @@
     padding-bottom: 4rem;
   }
 
+  .logo {
+    height: 8rem;
+    width: 17rem;
+    margin-left: -1rem;
+  }
+
   .header {
     padding: 3rem 2rem;
   }
@@ -374,6 +380,11 @@
   .footer-content {
     flex-direction: column;
     gap: 5rem;
+  }
+
+  .footer-logo {
+    width: 16rem;
+    height: 7rem;
   }
 
   .info-footer {
