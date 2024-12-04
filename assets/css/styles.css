@@ -335,19 +335,19 @@ a {
 }
 
 .div1 {
-  background-image: url(/assets/images/scams-trade.jpg);
+  background-image: url("assets/images/scams-trade.jpg");
 }
 
 .div2 {
-  background-image: url(/assets/images/persuasion.jpg);
+  background-image: url("assets/images/persuasion.jpg");
 }
 
 .div3 {
-  background-image: url(/assets/images/crypto-scam.jpg);
+  background-image: url("assets/images/crypto-scam.jpg");
 }
 
 .div4 {
-  background-image: url(/assets/images/revolut-premium.jpg);
+  background-image: url("assets/images/revolut-premium.jpg");
 }
 
 .div1:hover,
