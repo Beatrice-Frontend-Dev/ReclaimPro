@@ -59,6 +59,22 @@ accordionButtons.forEach((button) => {
   });
 });
 
+//ACCORDION SECTION for FAQ
+
+const accordionButtn = document.querySelectorAll(".accordion-butt");
+
+accordionButtn.forEach((button) => {
+  button.addEventListener("click", function () {
+    // Toggle the display of the associated content
+    const content = this.nextElementSibling;
+    content.style.display =
+      content.style.display === "block" ? "none" : "block";
+
+    // Toggle the active class for the button
+    this.classList.toggle("active");
+  });
+});
+
 //TESTIMONIALS SECTION
 
 const testimonials = document.querySelectorAll(".testimonial");
