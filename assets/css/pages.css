@@ -12,6 +12,19 @@
   row-gap: 10rem;
 }
 
+.buttonss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.hero-btn2,
+.hero-abt2 {
+  width: 16rem;
+  padding: 1.5rem 2rem;
+}
+
 .top-left {
   flex: 1;
   display: flex;

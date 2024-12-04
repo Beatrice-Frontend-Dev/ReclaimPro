@@ -292,6 +292,10 @@
     color: #00ce81;
   }
 
+  .ratings {
+    width: 70%;
+  }
+
   .testimonials h2 {
     font-size: 3rem;
   }
@@ -341,6 +345,10 @@
     line-height: 50px;
   }
 
+  .hero-btn2 {
+    width: 17rem;
+  }
+
   .top {
     display: flex;
     flex-direction: column;
@@ -354,6 +362,7 @@
   .serv {
     width: 100%;
     padding: 7rem 2rem;
+    border: 1px solid #ccc;
   }
 
   .accord-section {
@@ -446,6 +455,10 @@
 }
 
 @media (max-width: 400px) {
+  .hero-btn2 {
+    width: 17rem;
+  }
+
   .section,
   .footer,
   .header {

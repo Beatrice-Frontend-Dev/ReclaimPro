@@ -108,19 +108,26 @@ a {
 }
 
 .btn:hover,
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-abt:hover {
   color: white;
   background-color: #090d11;
 }
 
 .nav-menu .btn a:hover,
 .hero-btn a:hover,
-.hero-btn a {
+.hero-btn a,
+.hero-abt a,
+.hero-abt a:hover {
   color: white;
 }
 
 .burger {
   display: none;
+}
+
+.star1 {
+  height: 2rem;
 }
 
 .hero-content {
@@ -170,7 +177,33 @@ a {
   color: #fff;
   font-size: 1.4rem;
   border: none;
+  margin-right: 1rem;
   border-radius: 0.3rem;
+}
+
+.hero-abt {
+  width: 30%;
+  padding: 1.3rem 1rem;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.4rem;
+  border: 1px solid #00ce81;
+}
+
+.ratings,
+.trus {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ratings {
+  padding: 2rem 0;
+  column-gap: 1.1rem;
+  row-gap: 0.8rem;
+}
+
+.ratings p {
+  font-size: 1.43rem;
 }
 
 .image {
@@ -311,8 +344,8 @@ a {
 
 .image-photo {
   width: 48rem;
-  height: 37rem;
-  object-fit: cover;
+  height: 40rem;
+  object-fit: contain;
 }
 .accordion-section {
   flex: 1;
@@ -418,8 +451,9 @@ a {
 }
 
 .testimonial .test-p1 {
-  width: 35rem;
+  width: 39rem;
   font-size: 1.5rem;
+  line-height: 26px;
   align-self: center;
   justify-self: center;
   margin-bottom: 1rem;
@@ -427,7 +461,7 @@ a {
 
 .clients-name {
   font-size: 1.3rem;
-  color: rgb(6, 44, 85);
+  color: #00ce81;
   font-weight: 600;
 }
 
