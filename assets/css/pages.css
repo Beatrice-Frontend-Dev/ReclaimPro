@@ -8,6 +8,21 @@
   position: relative;
 }
 
+.services-page {
+  background-color: #fff;
+}
+
+.servicespage-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7rem;
+}
+
+.top-service-page {
+  display: flex;
+  flex-direction: row;
+}
+
 .services-content {
   row-gap: 5rem;
 }
