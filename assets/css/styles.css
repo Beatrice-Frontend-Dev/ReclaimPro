@@ -335,7 +335,7 @@ a {
 }
 
 .div1 {
-  background-image: url(../images/scams-trade.jpg);
+  background-image: url("../images/scams-trade.jpg");
 }
 
 .div2 {
